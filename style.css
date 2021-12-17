@@ -1,17 +1,21 @@
 body {
+  flex: 1;
   margin: 0 0 0 0;
   width: 100%;
   height: 100%;
 }
 
 footer {
-  display: grid;
+  display: flex;
+}
+
+#logo {
+  flex: 1;
+  padding-left: 600px;
+}
+
+#nüt {
+  flex: 1;
   color: #ff007e;
-  grid-template-columns: 2fr 50px 50px 50px;
-  grid-template-rows: 50px;
-  grid-template-areas: ". logo nüt";
-  font-size: 10px;
-  margin-right: 600px;
-  margin-left: 600px;
   white-space: nowrap;
 }
